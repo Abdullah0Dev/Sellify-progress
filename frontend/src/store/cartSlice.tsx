@@ -67,7 +67,6 @@ const cartSlice = createSlice({
             if (allZero) {
                 state.cartList = state.cartList.filter(item => item._id !== removedItem._id)
             }
-
         },
         // increment the quantity
         incrementQuantity(

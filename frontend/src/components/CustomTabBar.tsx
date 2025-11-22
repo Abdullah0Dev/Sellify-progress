@@ -8,8 +8,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { MotiView } from 'moti'
 import Animated, { LinearTransition, FadeInRight, FadeOutRight } from 'react-native-reanimated'
 import { useNavigation } from '@react-navigation/native'
-import { useAppSelector } from '../store'
-
+import { useAppSelector } from '../store' 
 type iconName = keyof typeof icons
 type iconProps = {
     name: iconName;
